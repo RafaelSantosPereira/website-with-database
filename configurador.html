@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 <body>
+    <script src="configurador.js"></script>
     <header>
         <a href="user.html">
             <span class="icone"><i class="bi bi-box-arrow-left"></i></span></i>
@@ -46,9 +47,12 @@
         <div class="componente">
             <h2>Processador</h2>
             <select id="processador" value = "" name="Processador" >
-                <option value="Intel core i3 12300">Intel core i3 12300</option>
+                <option value="Intel core i3 12100">Intel core i3 12100</option>
                 <option value="Intel core i5 12400">Intel core i5 12400</option>
+                <option value="Intel core i5 12600K">Intel core i5 12600KF</option>
                 <option value="Intel core i7 12700">Intel core i7 12700</option>
+                <option value="Intel core i7 12700K">Intel core i7 12700K</option>
+                <option value="Intel Core i9-12900K">Intel Core i9-12900K</option>
             </select>
         </div>
         <div class="componente">
@@ -63,19 +67,20 @@
         <div class="componente">
             <h2>Placa de video</h2>
             <select id="placa_video" name="Placa_video">
-                <option value="Nvidea RTX 3050">Nvidea RTX 3050</option>
-                <option value="Nvidea RTX 3060">Nvidea RTX 3060</option>
-                <option value="Nvidea RTX 3070">Nvidea RTX 3070</option>
-                <option value="Nvidea RTX 3080">Nvidea RTX 3080</option>
-                <option value="Nvidea RTX 4060">Nvidea RTX 4060</option>
-                <option value="Nvidea RTX 4070">Nvidea RTX 4070</option>
-                <option value="Nvidea RTX 4080">Nvidea RTX 4080</option>
-                <option value="Radeon RX 6600">Radeon RX 6600</option>
-                <option value="Radeon RX 6700 XT">Radeon RX 6700 XT</option>         
-                <option value="Radeon RX 6800 XT">Radeon RX 6800 XT</option>
-                <option value="Radeon RX 7600">Radeon RX 7600</option>
-                <option value="Radeon RX 7700 XT">Radeon RX 7700 XT</option>         
-                <option value="Radeon RX 7800 XT">Radeon RX 7800 XT</option>
+                <option value="Nvidia RTX 3050" data-valor="500">Nvidia RTX 3050</option>
+                <option value="Nvidia RTX 3060" data-valor="600">Nvidia RTX 3060</option>
+                <option value="Nvidia RTX 3070" data-valor="650">Nvidia RTX 3070</option>
+                <option value="Nvidia RTX 3080" data-valor="750">Nvidia RTX 3080</option>
+                <option value="Nvidia RTX 4060" data-valor="550">Nvidia RTX 4060</option>
+                <option value="Nvidia RTX 4070" data-valor="650">Nvidia RTX 4070</option>
+                <option value="Nvidia RTX 4080" data-valor="750">Nvidia RTX 4080</option>
+                <option value="Radeon RX 6600" data-valor="550">Radeon RX 6600</option>
+                <option value="Radeon RX 6700 XT" data-valor="650">Radeon RX 6700 XT</option>
+                <option value="Radeon RX 6800 XT" data-valor="750">Radeon RX 6800 XT</option>
+                <option value="Radeon RX 7600" data-valor="550">Radeon RX 7600</option>
+                <option value="Radeon RX 7700 XT" data-valor="650">Radeon RX 7700 XT</option>
+                <option value="Radeon RX 7800 XT" data-valor="650">Radeon RX 7800 XT</option>
+            </select>
                             
             </select>
         </div>
@@ -103,14 +108,15 @@
         <div class="componente">
             <h2>Fonte</h2>
             <select name="Fonte" id="fonte">
-                <option value="650w 80+ Bronze">650w 80+ Bronze</option> 
-                <option value="750w 80+ Bronze">750w 80+ Bronze</option>
-                <option value="850w 80+ Bronze">850w 80+ Bronze</option>
-                <option value="1000w 80+ Bronze">1000w 80+ Bronze</option>
-                <option value="650w 80+ Gold">650w 80+ Gold</option>
-                <option value="750w 80+ Gold">750w 80+ Gold</option>
-                <option value="850w 80+ Gold">850w 80+ Gold</option>
-                <option value="1000w 80+ Gold">1000w 80+ Gold</option>   
+                <option value="500w 80+ Bronze" data-valor2="500">500w 80+ Bronze</option> 
+                <option value="650w 80+ Bronze"data-valor2="650">650w 80+ Bronze</option> 
+                <option value="750w 80+ Bronze"data-valor2="750">750w 80+ Bronze</option>
+                <option value="850w 80+ Bronze"data-valor2="850">850w 80+ Bronze</option>
+                <option value="1000w 80+ Bronze"data-valor2="1000">1000w 80+ Bronze</option>
+                <option value="650w 80+ Gold"data-valor2="650">650w 80+ Gold</option>
+                <option value="750w 80+ Gold"data-valor2="750">750w 80+ Gold</option>
+                <option value="850w 80+ Gold"data-valor2="850">850w 80+ Gold</option>
+                <option value="1000w 80+ Gold"data-valor2="1000">1000w 80+ Gold</option>   
             </select>
         </div>
         <div class="componente">

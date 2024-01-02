@@ -15,8 +15,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
       
-    width: 50vh;
-    height: 50vh;
+    width: 450px;
+    height: 450px;
     background-color: 	#181818;     
     font-size: medium;
     border-radius: 20px;
