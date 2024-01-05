@@ -32,6 +32,23 @@ h2{
     margin-top: 13%;
     
 }
+.userContainner{
+  
+  display: flex;
+  position: absolute;
+      right: 5%;
+  gap: 5px;
+}
+.UserIcon{
+  font-size: 25px;
+  margin-top: 8px;
+}
+.userContainner .sessao{
+
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
 h3{
     font-size: 10px;
 }

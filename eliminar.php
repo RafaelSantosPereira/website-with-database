@@ -32,7 +32,7 @@
     <nav class="side-bar" side-bar>
             <ul>
                 <li class="menu-item">
-                    <a href="configurador.html">
+                    <a href="configurador.php">
                         <span class="icon"><i class="bi bi-house"></i></span>
                         <span class="txt-link">Home</span>
                     </a>

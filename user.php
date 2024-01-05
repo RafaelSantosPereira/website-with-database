@@ -33,7 +33,7 @@
             if ($registo) {
                 session_start();
                 $_SESSION['Nome'] = $Nome;
-                header("Location: configurador.html");
+                header("Location: configurador.php");
             } else {
                 header("Location: user.html?erro=1");
             }
