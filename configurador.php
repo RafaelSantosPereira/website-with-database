@@ -1,12 +1,12 @@
 <?php
         session_start(); // IniciA a sessão
         if (!isset($_SESSION['Nome'])) {
-            // Se não estiver logado, redirecione para a página de login
+            // Se não estiver logado, redireciona para a página de login
             header("Location: user.html");
             exit;
         }
         include 'connect.php';
-        // RecuperA o nome do utilizador da sessão
+        // Recupera o nome do utilizador da sessão
         $Nome = $_SESSION['Nome'];
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             

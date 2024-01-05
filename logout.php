@@ -1,10 +1,10 @@
 <?php
-session_start(); // Inicie a sessão, se ainda não estiver iniciada
+session_start();
 
-// Destrua todas as variáveis de sessão
+// junta todas as variáveis de sessão num array para as destruir
 $_SESSION = array();
 
-// Se desejar encerrar completamente a sessão, apague o cookie de sessão.
+// apaga os cookies de sessão.
 if (ini_get("session.use_cookies")) {
     $params = session_get_cookie_params();
     setcookie(session_name(), '', time() - 42000,
@@ -13,10 +13,10 @@ if (ini_get("session.use_cookies")) {
     );
 }
 
-// Destrua a sessão
+// Destroi a sessão
 session_destroy();
 
-// Redirecione para a página de login ou outra página desejada
+
 header("Location: user.html");
 
 exit;
